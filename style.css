@@ -5,13 +5,13 @@
 
 .main{
     width: 100%;
-    height: 100vh;
+    min-height: 100vh; 
     display: flex;
     flex-direction: column;
      padding-top: 60px;
     /* justify-content: center; */
     align-items: center;
-    background-color: darkgray;
+    background: linear-gradient(rgb(255, 225, 209), rgb(249, 159, 159));
 }
 .input_class{
     display: flex;
